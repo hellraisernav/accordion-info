@@ -2,6 +2,7 @@
 import { FaStar } from "react-icons/fa";
 import { useState } from "react";
 import "./style.css";
+// Todo: remove all the rating
 
 const StarRating = ({ noOfStars = 5 }) => {
     const [rating, setRating] = useState(0);
