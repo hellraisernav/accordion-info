@@ -1,3 +1,4 @@
+import StarRating from "./components/Rating System";
 import Accordion from "./components/accordion";
 import RandomColor from "./components/colorGenerator";
 
@@ -7,6 +8,7 @@ function App() {
             <div>
                 <Accordion />
                 <RandomColor />
+                <StarRating noOfStars={10} />
             </div>
         </>
     );
